@@ -267,7 +267,7 @@ margin-top: 80px;
 .support-section{
     width: 800px;
     height: 230px;
-    border: 2px solid green;
+    
     margin: 50px auto;
     background: linear-gradient(to bottom, rgba(0,0,0, 0.6), rgba(0, 0, 0, 0.6)),
               url('./assets/handshake.jpg');
@@ -318,3 +318,24 @@ button{
     padding: 15px 20px;
     border-radius: 5px;
 }
+
+/* support section ends here */
+
+
+/* footer starts here */
+
+.footer-content{
+    margin-top: 100px;
+    width: 850px;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+ 
+  background-color: rgba(13, 19, 33, 0.03);
+}
+
+.footer-content .footer-icons img{
+    margin: 20px;
+}
+
