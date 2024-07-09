@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* banner section starts here */
+.banner-container{
+    width: 1200px;
+    height: 500px;
+    border: 2px solid green;
+    margin: 0 auto;
+    background-image: url("./assets/Hero-bg.png");
+}
+
+.banner-content{
+    width: 1000px;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.banner-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: center;
+}
+
+.banner-content .btn{
+    margin-top: 30px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+
+letter-spacing: 0%;
+text-align: center;
+
+border-radius: 8px;
+
+background: rgb(13, 19, 33);
+padding: 10px 20px;
+box-shadow: 0px 3px 20px rgba(0,0,0, 0.1);
+}
+
+.banner-content .btn a{
+    text-decoration: none;
+}
+
+/* banner section ends here */
+
+
+/* Reason section starts here */
+ .banner-container {
+    width: 1200px;
+ }
+
+ .reason-content-1,  .reason-content-2, .reason-content-3{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+   
+ }
+ .reason-content{
+    margin-top: 120px;
+ }
+
+ .reason-content .reason-title{
+    text-align: center;
+    margin-bottom: 50px;
+   
+ }
+
+ .content-1-leftside{
+    width: 60%;
+    margin-right: 30px;
+ }
+ .content-3-leftside{
+    width: 60%;
+    margin-right: 30px;
+ }
+ .content-2-leftside{
+    width: 40%;
+    margin-right: 30px;
+ }
+
+ .content-1-leftside  .title, .content-2-rightside .title, .content-3-leftside  .title{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ .content-1-leftside .description , .content-2-rightside .description,.content-3-leftside .description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 14px;
+font-weight: 400;
+
+text-align: left;
+ }
+
+ .content-1-leftside .btn, .content-2-rightside .btn, .content-3-leftside .btn{
+    padding: 5px 10px;
+ }
+/* Reason section ends here */
+
+/* inspiration section starts here */
+.insporation-section{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.insporation-section .inspiration-text{
+  margin: 80px;
+  margin-bottom: 80px;
+}
+
+.insporation-section .inspiration-text h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.inspiration-text p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+
+}
+
+/* inspiration section ends here */
+
+
+
+/* :current target section starts here */
+
+/* :current target section starts here */
+
