@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* banner section starts here */
+body{
+    font-family: "Open Sans", sans-serif;
+}
 .banner-container{
     width: 1200px;
     height: 500px;
@@ -19,7 +22,7 @@
 
 .banner-title{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
+      font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 800;
     text-align: center;
@@ -27,7 +30,7 @@
 
 .banner-description{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+  font-family: "Open Sans", sans-serif;
 font-size: 14px;
 font-weight: 400;
 
@@ -38,7 +41,7 @@ text-align: center;
 .banner-content .btn{
     margin-top: 30px;
 color: rgb(255, 255, 255);
-font-family: Azeret Mono;
+  font-family: "Open Sans", sans-serif;
 font-size: 16px;
 font-weight: 400;
 
@@ -49,7 +52,7 @@ border-radius: 8px;
 
 background: rgb(13, 19, 33);
 padding: 10px 20px;
-box-shadow: 0px 3px 20px rgba(0,0,0, 0.1);
+
 }
 
 .banner-content .btn a{
@@ -98,7 +101,7 @@ background: rgba(13, 19, 33, 0.02);
 
  .content-1-leftside  .title, .content-2-rightside .title, .content-3-leftside  .title{
     color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
+  font-family: "Open Sans", sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 36px;
@@ -108,7 +111,7 @@ text-align: left;
 
  .content-1-leftside .description , .content-2-rightside .description,.content-3-leftside .description{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+  font-family: "Open Sans", sans-serif;
 font-size: 14px;
 font-weight: 400;
 
@@ -135,7 +138,7 @@ text-align: left;
 
 .insporation-section .inspiration-text h1{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+  font-family: "Open Sans", sans-serif;
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
@@ -145,7 +148,7 @@ opacity: 0.7;
 }
 .inspiration-text p{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
+  font-family: "Open Sans", sans-serif;
 font-size: 13px;
 font-weight: 400;
 
@@ -169,8 +172,8 @@ font-weight: 400;
 .current-target-card{
     display: flex;
     justify-content: space-around;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     gap: 30px;
 }
 .current-target-section .current-target-text{
@@ -182,24 +185,81 @@ font-weight: 400;
 .html-card {
   
   border-radius: 16px;
-
+  padding: 20px;
   background: rgba(255, 76, 30, 0.05);
 }
 
 .css-card{
     border-radius: 16px;
-
-background: rgba(0, 76, 232, 0.05);
+    padding: 20px;
+    background: rgba(0, 76, 232, 0.05);
 }
 
 .js-card{
     border-radius: 16px;
-
-background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+    background: rgba(255, 223, 0, 0.05);
 }
 /* :current target section ends here */
 
 
 /* next target starts here */
+.next-target-container{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+width: 1200px;
+height: 500px;
 
+background: rgba(13, 19, 33, 0.02);
+margin: 0 auto;
+margin-top: 80px;
+}
+
+.next-target-text{
+    width: 400px;
+ margin: 0 auto;
+ text-align: center;
+ background-color: white;
+ margin-bottom: 30px;
+}
+
+.next-target-text h1{
+  opacity: 0.7;
+}
+
+.next-target-node-js{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    gap: 50px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.next-target-react-js{
+    margin-bottom: 10px;
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    gap: 50px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.next-target-mongoDB{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    gap: 50px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.next-target-node-js>p,.next-target-react-js>p,.next-target-mongoDB>p{
+    width: 10%;
+}
+
+.next-target-node-js>p img{
+     width: 90px;
+    text-align: center;
+}
 /* next target starts here */
