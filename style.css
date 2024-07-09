@@ -4,7 +4,7 @@
 .banner-container{
     width: 1200px;
     height: 500px;
-    border: 2px solid green;
+   
     margin: 0 auto;
     background-image: url("./assets/Hero-bg.png");
 }
@@ -14,7 +14,7 @@
     height: 400px;
     margin: 50px auto;
     text-align: center;
-    border: 2px solid red;
+    
 }
 
 .banner-title{
@@ -68,10 +68,13 @@ box-shadow: 0px 3px 20px rgba(0,0,0, 0.1);
     display: flex;
     width: 1000px;
     margin: 0 auto;
-   
+    background-color: white;
  }
  .reason-content{
     margin-top: 120px;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
  }
 
  .reason-content .reason-title{
@@ -148,11 +151,55 @@ font-weight: 400;
 
 }
 
+
 /* inspiration section ends here */
 
 
 
 /* :current target section starts here */
+.current-target-section{
+    width: 1000px;
+    background-color: white;
+ 
+    margin: 0 auto;
+   
+    margin-top: 50px;
+}
 
-/* :current target section starts here */
+.current-target-card{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 30px;
+}
+.current-target-section .current-target-text{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.html-card {
+  
+  border-radius: 16px;
 
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
+/* :current target section ends here */
+
+
+/* next target starts here */
+
+/* next target starts here */
