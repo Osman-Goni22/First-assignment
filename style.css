@@ -87,19 +87,21 @@ padding: 10px 20px;
  .reason-content-1,  .reason-content-2, .reason-content-3{
     display: flex;
     width: 1000px;
-    margin: 0 auto;
+    margin: 20px auto;
     background-color: white;
+    
  }
  .reason-content{
     margin-top: 120px;
     border-radius: 16px;
 
-background: rgba(13, 19, 33, 0.02);
+background-color: rgba(13, 19, 33, 0.02);
  }
 
  .reason-content .reason-title{
     text-align: center;
     margin-bottom: 50px;
+    background-color: white;
    
  }
 
@@ -171,6 +173,9 @@ font-weight: 400;
 
 }
 
+.current-target-card button a{
+    text-decoration: none;
+}
 
 /* inspiration section ends here */
 
@@ -216,6 +221,13 @@ font-weight: 400;
     border-radius: 16px;
     padding: 20px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target-card button{
+    
+        padding: 8px 12px;
+        border-radius: 5px;
+    
 }
 /* :current target section ends here */
 
@@ -277,6 +289,13 @@ margin-top: 80px;
 .next-target-node-js>p img{
      width: 90px;
     text-align: center;
+}
+.next-target-container button
+{
+   
+        padding: 8px 12px;
+        border-radius: 5px;
+    
 }
 /* next target ends here */
 
