@@ -144,10 +144,10 @@ text-align: left;
 
 /* inspiration section starts here */
 .insporation-section{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     text-align: center;
-
+   background-color: lightslategray 5%;
 }
 
 .insporation-section .inspiration-text{
@@ -173,10 +173,22 @@ font-weight: 400;
 
 }
 
+.inspiration-video{
+    width: 80%;
+    height: 360px;
+    margin: 10px auto;
+    border: 2px solid red;
+    background-color: darkcyan 40%;
+    border-radius: 30px;
+}
+
 .current-target-card button a{
     text-decoration: none;
 }
 
+iframe{
+    margin: 10px auto;
+}
 /* inspiration section ends here */
 
 
