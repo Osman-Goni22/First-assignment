@@ -6,6 +6,12 @@ nav ul li{
 
 li a{
     text-decoration: none;
+  
+}
+.btn1{
+    background-color: black;
+    color: white;
+   
 }
 ul{
     display: flex;
@@ -15,7 +21,7 @@ ul{
 
 .nav-button {
     background-color: brown;
-    color: white;
+    
 }
 /* banner section starts here */
 body{
